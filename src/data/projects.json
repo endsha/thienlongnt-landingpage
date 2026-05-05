@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "du-an-mau-1",
+    "title": "Dự án mẫu 01",
+    "category": "Cầu & Đường",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2024,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 1 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  },
+  {
+    "slug": "du-an-mau-2",
+    "title": "Dự án mẫu 02",
+    "category": "Hạ Tầng & Khu Đô Thị",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2024,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 2 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  },
+  {
+    "slug": "du-an-mau-3",
+    "title": "Dự án mẫu 03",
+    "category": "Công Nghiệp",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2023,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 3 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  },
+  {
+    "slug": "du-an-mau-4",
+    "title": "Dự án mẫu 04",
+    "category": "Cầu & Đường",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2023,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 4 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  },
+  {
+    "slug": "du-an-mau-5",
+    "title": "Dự án mẫu 05",
+    "category": "Hạ Tầng & Khu Đô Thị",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2022,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 5 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  },
+  {
+    "slug": "du-an-mau-6",
+    "title": "Dự án mẫu 06",
+    "category": "Công Nghiệp",
+    "client": "Chủ đầu tư",
+    "location": "Khánh Hòa",
+    "year": 2022,
+    "thumbnail": "",
+    "gallery": [],
+    "summary": "Mô tả ngắn về dự án mẫu số 6 phục vụ phát triển giao diện.",
+    "description": "",
+    "tags": []
+  }
+]

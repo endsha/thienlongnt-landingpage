@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /no-such-route
+
+Sitemap: https://gianguyenkhanhhoa.vn/sitemap.xml
