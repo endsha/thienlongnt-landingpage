@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm install -D *)",
+      "Bash(npm install *)",
+      "Bash(npm run build)",
+      "Bash(npm run lint)",
+      "Bash(npm run format)",
+      "Bash(npm run dev)",
+      "Bash(npm run preview)",
+      "WebFetch(domain:gianguyenkhanhhoa.vn)"
+    ]
+  }
+}
