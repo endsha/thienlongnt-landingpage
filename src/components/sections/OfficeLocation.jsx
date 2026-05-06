@@ -1,12 +1,11 @@
+import vietnamMap from '@/assets/vietnam-map.png';
+
 const PIN_PATH =
   'M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z';
 const PHONE_PATH =
   'M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.5 11.5 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.5 11.5 0 0 0 .6 3.6 1 1 0 0 1-.25 1L6.6 10.8Z';
 const CLOCK_PATH =
   'M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm1 11h-4V7h2v4h2Z';
-
-const VIETNAM_OUTLINE =
-  'M16 16 L60 30 L110 38 L150 42 L183 47 L170 64 L142 76 L150 105 L168 140 L185 175 L205 210 L220 248 L215 278 L196 302 L160 326 L118 348 L78 358 L40 348 L34 322 L60 302 L90 278 L110 244 L132 218 L138 192 L122 162 L100 132 L72 102 L48 74 L28 48 Z';
 
 function InfoRow({ iconPath, label, children }) {
   return (
@@ -21,65 +20,6 @@ function InfoRow({ iconPath, label, children }) {
         <div className="max-w-sm text-sm leading-relaxed text-ink-muted">{children}</div>
       </div>
     </div>
-  );
-}
-
-function VietnamMap() {
-  return (
-    <svg
-      viewBox="0 0 250 380"
-      role="img"
-      aria-label="Bản đồ Việt Nam, đánh dấu vị trí Khánh Hòa"
-      className="h-full w-full"
-    >
-      <defs>
-        <linearGradient id="vn-fill" x1="0" x2="0" y1="0" y2="1">
-          <stop offset="0" stopColor="#0e3b86" />
-          <stop offset="1" stopColor="#0a2a63" />
-        </linearGradient>
-      </defs>
-
-      <path
-        d={VIETNAM_OUTLINE}
-        fill="url(#vn-fill)"
-        stroke="#1a4ba0"
-        strokeWidth="1.5"
-        strokeLinejoin="round"
-      />
-
-      <g aria-hidden="true">
-        <circle cx="232" cy="170" r="2" fill="#cbd5e1" />
-        <circle cx="238" cy="166" r="1.5" fill="#cbd5e1" />
-        <circle cx="228" cy="178" r="1.5" fill="#cbd5e1" />
-        <text x="218" y="158" fontSize="9" fill="#94a3b8" fontFamily="inherit">
-          Hoàng Sa
-        </text>
-      </g>
-
-      <g aria-hidden="true">
-        <circle cx="238" cy="290" r="2" fill="#cbd5e1" />
-        <circle cx="244" cy="286" r="1.5" fill="#cbd5e1" />
-        <circle cx="240" cy="300" r="1.5" fill="#cbd5e1" />
-        <text x="218" y="316" fontSize="9" fill="#94a3b8" fontFamily="inherit">
-          Trường Sa
-        </text>
-      </g>
-
-      <g transform="translate(212 262)">
-        <circle r="14" fill="#e27121" opacity="0.18" />
-        <circle r="6" fill="#e27121" stroke="#fff" strokeWidth="2" />
-      </g>
-      <text
-        x="155"
-        y="266"
-        fontSize="11"
-        fontWeight="700"
-        fill="#0a2a63"
-        fontFamily="inherit"
-      >
-        Khánh Hòa
-      </text>
-    </svg>
   );
 }
 
@@ -116,7 +56,12 @@ export default function OfficeLocation() {
 
           <div className="relative">
             <div className="relative mx-auto aspect-[2/3] max-h-[520px] w-full max-w-sm">
-              <VietnamMap />
+              <img
+                src={vietnamMap}
+                alt="Bản đồ Việt Nam, đánh dấu vị trí Khánh Hòa"
+                loading="lazy"
+                className="h-full w-full object-contain"
+              />
             </div>
             <div
               className="pointer-events-none absolute -bottom-4 -right-4 -z-10 h-32 w-32 rounded-full bg-accent-500/20 blur-2xl"
