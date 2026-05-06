@@ -101,11 +101,11 @@ export default function OfficeLocation() {
 
             <div className="space-y-8">
               <InfoRow iconPath={PIN_PATH} label="Địa chỉ">
-                Số 6 đường Lê Nại, phường Bảo An, tỉnh Khánh Hoà
+                Đường Thống Nhất, thôn Tân Sơn 2, phường Bảo An, tỉnh Khánh Hoà
               </InfoRow>
               <InfoRow iconPath={PHONE_PATH} label="Số điện thoại">
                 <a href="tel:0908700009" className="font-bold text-ink transition-colors hover:text-accent-700">
-                  0908.700009
+                  0949536128
                 </a>
               </InfoRow>
               <InfoRow iconPath={CLOCK_PATH} label="Giờ làm việc">

@@ -31,14 +31,13 @@ export default function AboutSummary() {
           Về Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận
         </p>
         <h2 className="mb-6 font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
-          Nền tảng vững chắc cho mọi công trình
+          Nền móng vững chắc bắt đầu từ từng phép thử
         </h2>
 
         <div className="space-y-5 text-justify leading-relaxed text-ink-muted">
           <p>
             <strong>Thiên Long Ninh Thuận</strong> là đơn vị tư vấn và thí nghiệm chuyên ngành xây dựng,
-            vận hành phòng thí nghiệm đáp ứng các tiêu chuẩn khắt khe phục vụ kiểm soát
-            chất lượng công trình.
+            thực hiện đầy đủ các chỉ tiêu thí nghiệm về đất, đá, bê tông, thép,.... và vật liệu hoàn thiện theo chuẩn TCVN.
           </p>
           <p>
             Đội ngũ kỹ sư giàu kinh nghiệm cùng hệ thống thiết bị hiện đại đảm bảo các

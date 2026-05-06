@@ -97,18 +97,18 @@ function UtilityBar() {
           Phường Bảo An, tỉnh Khánh Hòa
         </span>
         <a
-          href="mailto:hungnguyenanhanh@gmail.com"
+          href="mailto:thienlongninhthuan@gmail.com"
           className="flex items-center gap-2 uppercase tracking-wide text-slate-200 transition-colors hover:text-accent-500"
         >
           <MailIcon />
-          hungnguyenanhanh@gmail.com
+          thienlongninhthuan@gmail.com
         </a>
         <a
           href="tel:0908700009"
           className="flex items-center gap-2 font-bold tracking-wide text-accent-500 transition-colors hover:text-white"
         >
           <PhoneIcon />
-          0908.700009
+          0949536128
         </a>
       </div>
     </div>

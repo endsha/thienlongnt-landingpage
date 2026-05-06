@@ -8,12 +8,12 @@ const MAP_EMBED =
 const INFO = [
   {
     label: 'Địa chỉ',
-    value: 'Số 6 đường Lê Nại, phường Bảo An, tỉnh Khánh Hoà',
+    value: 'Đường Thống Nhất, thôn Tân Sơn 2, phường Bảo An, tỉnh Khánh Hoà',
     icon: 'M12 2a8 8 0 0 0-8 8c0 5.5 8 12 8 12s8-6.5 8-12a8 8 0 0 0-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z',
   },
   {
     label: 'Điện thoại',
-    value: '0908.700009',
+    value: '0949536128',
     href: 'tel:0908700009',
     icon: 'M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.5 11.5 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.5 11.5 0 0 0 .6 3.6 1 1 0 0 1-.25 1L6.6 10.8Z',
   },
@@ -357,7 +357,7 @@ export default function Contact() {
     <>
       <SEO
         title="Liên hệ Thiên Long Ninh Thuận — Văn phòng Khánh Hòa"
-        description="Liên hệ tư vấn dịch vụ thí nghiệm, kiểm định, thi công của Thiên Long Ninh Thuận tại Khánh Hòa. Phản hồi yêu cầu trong 24h. Hotline 0908.700009."
+        description="Liên hệ tư vấn dịch vụ thí nghiệm, kiểm định, thi công của Thiên Long Ninh Thuận tại Khánh Hòa. Phản hồi yêu cầu trong 24h. Hotline 0949536128."
       />
       <Hero />
       <ContactBody />

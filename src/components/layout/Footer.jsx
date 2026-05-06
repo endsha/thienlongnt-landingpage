@@ -89,10 +89,10 @@ export default function Footer() {
           </h2>
           <div className="space-y-5">
             <ContactRow iconPath={PIN_PATH} label="Địa chỉ trụ sở">
-              Số 6 đường Lê Nại, phường Bảo An, tỉnh Khánh Hoà
+              Đường Thống Nhất, thôn Tân Sơn 2, phường Bảo An, tỉnh Khánh Hoà
             </ContactRow>
             <ContactRow iconPath={PHONE_PATH} label="Hotline tư vấn">
-              <span className="font-black tracking-widest">0908.700009</span>
+              <span className="font-black tracking-widest">0949536128</span>
             </ContactRow>
             <ContactRow iconPath={ID_PATH} label="Mã số thuế">
               4500453534

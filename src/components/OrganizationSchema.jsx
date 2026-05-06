@@ -17,7 +17,7 @@ const ORGANIZATION = {
   email: 'lienhe@thienlongninhthuan.com',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: 'Số 6 đường Lê Nại',
+    streetAddress: 'Đường Thống Nhất, thôn Tân Sơn 2',
     addressLocality: 'Phường Bảo An',
     addressRegion: 'Khánh Hòa',
     addressCountry: 'VN',
