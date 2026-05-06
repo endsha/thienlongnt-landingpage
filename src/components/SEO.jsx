@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 
 const SITE_NAME = 'Gia Nguyên';
-const SITE_URL = 'https://gianguyenkhanhhoa.vn';
+const SITE_URL = 'https://thienlongninhthuan.com';
 const DEFAULT_TITLE = 'Gia Nguyên — Tư vấn & Thí nghiệm chuyên ngành xây dựng';
 const DEFAULT_DESCRIPTION =
   'Công ty TNHH Xây dựng và Thương mại Gia Nguyên — đơn vị thí nghiệm, kiểm định và thi công xây dựng tại Khánh Hòa. LAS-XD, đạt chuẩn TCVN.';

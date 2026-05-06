@@ -185,8 +185,8 @@ async function validateSitemap() {
 
   if (urls.length < 16) bad(`sitemap should have ≥ 16 URLs, has ${urls.length}`);
   // Each URL must point to live host
-  const wrongHost = urls.filter((u) => !u.startsWith('https://gianguyenkhanhhoa.vn'));
-  if (wrongHost.length === 0) ok('all sitemap URLs are absolute https://gianguyenkhanhhoa.vn');
+  const wrongHost = urls.filter((u) => !u.startsWith('https://thienlongninhthuan.com'));
+  if (wrongHost.length === 0) ok('all sitemap URLs are absolute https://thienlongninhthuan.com');
   else bad(`${wrongHost.length} sitemap URL(s) wrong host: ${wrongHost.slice(0, 3).join(', ')}…`);
 
   // Spot-check that sitemap routes actually resolve

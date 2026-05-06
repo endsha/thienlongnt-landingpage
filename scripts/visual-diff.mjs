@@ -5,7 +5,7 @@ import { PNG } from 'pngjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const LIVE_BASE = 'https://gianguyenkhanhhoa.vn';
+const LIVE_BASE = 'https://thienlongninhthuan.com';
 const LOCAL_BASE = process.env.LOCAL_BASE ?? 'http://127.0.0.1:4173';
 const OUT_DIR = path.resolve('visual-diff');
 const VIEWPORT = { width: 1440, height: 900 };

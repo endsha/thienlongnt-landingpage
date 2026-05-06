@@ -110,13 +110,13 @@ export default function NewsDetail() {
 
   const jsonLd = useMemo(() => {
     if (!article) return null;
-    const url = `https://gianguyenkhanhhoa.vn/tin-tuc/${article.slug}`;
+    const url = `https://thienlongninhthuan.com/tin-tuc/${article.slug}`;
     const breadcrumb = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: 'https://gianguyenkhanhhoa.vn/' },
-        { '@type': 'ListItem', position: 2, name: 'Tin tức', item: 'https://gianguyenkhanhhoa.vn/tin-tuc' },
+        { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: 'https://thienlongninhthuan.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Tin tức', item: 'https://thienlongninhthuan.com/tin-tuc' },
         { '@type': 'ListItem', position: 3, name: article.title, item: url },
       ],
     };
@@ -130,7 +130,7 @@ export default function NewsDetail() {
       publisher: {
         '@type': 'Organization',
         name: 'Gia Nguyên',
-        logo: { '@type': 'ImageObject', url: 'https://gianguyenkhanhhoa.vn/images/logo.jpg' },
+        logo: { '@type': 'ImageObject', url: 'https://thienlongninhthuan.com/images/logo.jpg' },
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
       ...(article.thumbnail ? { image: article.thumbnail } : {}),

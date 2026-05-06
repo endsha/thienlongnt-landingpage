@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /no-such-route
 
-Sitemap: https://gianguyenkhanhhoa.vn/sitemap.xml
+Sitemap: https://thienlongninhthuan.com/sitemap.xml

@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-const SITE_URL = 'https://gianguyenkhanhhoa.vn';
+const SITE_URL = 'https://thienlongninhthuan.com';
 
 const ORGANIZATION = {
   '@context': 'https://schema.org',
@@ -14,7 +14,7 @@ const ORGANIZATION = {
   description:
     'Đơn vị tư vấn, thí nghiệm chuyên ngành xây dựng (LAS-XD), kiểm định chất lượng và thi công công trình tại Khánh Hòa và khu vực Nam Trung Bộ.',
   telephone: '+84-908-700-009',
-  email: 'lienhe@gianguyenkhanhhoa.vn',
+  email: 'lienhe@thienlongninhthuan.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Số 6 đường Lê Nại',
@@ -40,7 +40,7 @@ const ORGANIZATION = {
       '@type': 'ContactPoint',
       telephone: '+84-908-700-009',
       contactType: 'customer service',
-      email: 'lienhe@gianguyenkhanhhoa.vn',
+      email: 'lienhe@thienlongninhthuan.com',
       areaServed: 'VN',
       availableLanguage: ['Vietnamese'],
     },

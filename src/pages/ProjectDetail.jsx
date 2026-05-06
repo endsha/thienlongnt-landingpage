@@ -110,13 +110,13 @@ export default function ProjectDetail() {
 
   const jsonLd = useMemo(() => {
     if (!project) return null;
-    const url = `https://gianguyenkhanhhoa.vn/du-an/${project.slug}`;
+    const url = `https://thienlongninhthuan.com/du-an/${project.slug}`;
     const breadcrumb = {
       '@context': 'https://schema.org',
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: 'https://gianguyenkhanhhoa.vn/' },
-        { '@type': 'ListItem', position: 2, name: 'Dự án', item: 'https://gianguyenkhanhhoa.vn/du-an' },
+        { '@type': 'ListItem', position: 1, name: 'Trang chủ', item: 'https://thienlongninhthuan.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Dự án', item: 'https://thienlongninhthuan.com/du-an' },
         { '@type': 'ListItem', position: 3, name: project.title, item: url },
       ],
     };

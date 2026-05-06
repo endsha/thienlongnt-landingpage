@@ -2,7 +2,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const SITE_URL = 'https://gianguyenkhanhhoa.vn';
+const SITE_URL = 'https://thienlongninhthuan.com';
 const OUT = path.resolve('public/sitemap.xml');
 
 const STATIC_ROUTES = [

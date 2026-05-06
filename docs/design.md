@@ -1,7 +1,7 @@
-# Design Document — gianguyenkhanhhoa.vn Pixel-Perfect Clone
+# Design Document — thienlongninhthuan.com Pixel-Perfect Clone
 
 **Stack:** Vite + React + TailwindCSS
-**Target:** Full multi-page clone of `https://gianguyenkhanhhoa.vn/`
+**Target:** Full multi-page clone of `https://thienlongninhthuan.com/`
 **Status:** Design approved — ready for implementation handoff
 **Last updated:** 2026-05-04
 
@@ -9,7 +9,7 @@
 
 ## 1. Understanding Summary
 
-- **What:** A pixel-perfect clone of `gianguyenkhanhhoa.vn` (Vietnamese construction-testing company landing site) built with Vite + React + TailwindCSS.
+- **What:** A pixel-perfect clone of `thienlongninhthuan.com` (Vietnamese construction-testing company landing site) built with Vite + React + TailwindCSS.
 - **Why:** User has authorization to clone the site (own / authorized).
 - **Who for:** Same audience as the source site (Vietnamese clients of Gia Nguyên construction-testing services).
 - **Scope:** Full multi-page clone — 17 top-level routes from the nav (home, about, services, projects list, news list, contact, 10× library sub-pages: 6 under "Công bố năng lực" + 4 under "Thư viện") **plus** dynamic detail pages for projects (`/du-an/:slug`) and news (`/tin-tuc/:slug`), plus a `*` 404 fallback.
@@ -276,7 +276,7 @@ npm run dev      # start dev server at http://localhost:5173
 
 **Asset scraping (one-time):**
 1. Inventory `<img>`, background-images, fonts, icons, PDFs per route.
-2. `wget -r -l 2 -A "jpg,jpeg,png,svg,webp,woff2,pdf" https://gianguyenkhanhhoa.vn/`.
+2. `wget -r -l 2 -A "jpg,jpeg,png,svg,webp,woff2,pdf" https://thienlongninhthuan.com/`.
 3. Sort into `src/assets/{images,icons,fonts}/` and `public/library/`.
 4. Optimize (WebP via `squoosh`/`sharp`).
 5. Update JSON references.

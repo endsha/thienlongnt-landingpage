@@ -5,7 +5,7 @@
 **Tool:** `scripts/validate-deploy.mjs` (`npm run validate`)
 **Mode:** local production-build via `vite preview`
 
-> The validator is environment-agnostic. After `vercel --prod`, re-run with `BASE=https://gianguyenkhanhhoa.vn npm run validate` to verify the Vercel-specific behavior (rewrite, cache headers, security headers) end-to-end on the live deploy.
+> The validator is environment-agnostic. After `vercel --prod`, re-run with `BASE=https://thienlongninhthuan.com npm run validate` to verify the Vercel-specific behavior (rewrite, cache headers, security headers) end-to-end on the live deploy.
 
 ---
 
@@ -47,7 +47,7 @@ The two failures are both pre-known asset gaps surfaced in Phase 5.8 (SEO) and P
 
 ### Sitemap (8 ✓)
 - 25 URLs (16 static + 3 project + 6 news, generated from `projects.json` + `news.json`)
-- All `<loc>`s are absolute on `https://gianguyenkhanhhoa.vn`
+- All `<loc>`s are absolute on `https://thienlongninhthuan.com`
 - Spot-check: 5 sampled sitemap URLs all return 200 in the build
 
 ### Bundle cleanliness (1 ✓ · 1 warn)
@@ -82,27 +82,27 @@ Before running `vercel --prod`:
 
 - [ ] Add `public/og-default.jpg` (F1)
 - [ ] Add `public/logo.png` (F2)
-- [ ] Resolve email-address inconsistency (`Header.jsx` uses `hungnguyenanhanh@gmail.com`; everywhere else uses `lienhe@gianguyenkhanhhoa.vn`) — flagged in Phase 5.10 review
+- [ ] Resolve email-address inconsistency (`Header.jsx` uses `hungnguyenanhanh@gmail.com`; everywhere else uses `lienhe@thienlongninhthuan.com`) — flagged in Phase 5.10 review
 - [ ] Decide whether to keep the Contact form `console.log` or wrap it in `import.meta.env.DEV` — Phase 5.10 I3
 - [ ] Confirm `Footer.jsx` social/policy `href="#"` are intentional placeholders or wire them up (Phase 5.10 M2)
 
 ## Post-deploy checklist
 
-Once the site is live at `https://gianguyenkhanhhoa.vn`:
+Once the site is live at `https://thienlongninhthuan.com`:
 
 ```sh
-BASE=https://gianguyenkhanhhoa.vn npm run validate
-BASE=https://gianguyenkhanhhoa.vn npm run smoke
-BASE=https://gianguyenkhanhhoa.vn npm run a11y
-BASE=https://gianguyenkhanhhoa.vn npm run seo-scan
+BASE=https://thienlongninhthuan.com npm run validate
+BASE=https://thienlongninhthuan.com npm run smoke
+BASE=https://thienlongninhthuan.com npm run a11y
+BASE=https://thienlongninhthuan.com npm run seo-scan
 ```
 
 That re-runs the full Phase 5 verification suite against the live deploy and exercises the Vercel-only paths (rewrite, cache headers, security headers, SSL, custom domain).
 
 After the first live `npm run validate`:
 
-- [ ] Submit `https://gianguyenkhanhhoa.vn/sitemap.xml` to Google Search Console
+- [ ] Submit `https://thienlongninhthuan.com/sitemap.xml` to Google Search Console
 - [ ] Verify `robots.txt` is reachable and contains the `Sitemap:` directive
-- [ ] Spot-check a deep-link refresh (e.g. `https://gianguyenkhanhhoa.vn/du-an/du-an-mau-1`) returns the project page directly, not a 404 — confirms the SPA rewrite is working
+- [ ] Spot-check a deep-link refresh (e.g. `https://thienlongninhthuan.com/du-an/du-an-mau-1`) returns the project page directly, not a 404 — confirms the SPA rewrite is working
 - [ ] Confirm `Cache-Control: max-age=31536000, immutable` on `/assets/*.js`
 - [ ] Confirm security headers visible on `/` (Chrome DevTools → Network tab)

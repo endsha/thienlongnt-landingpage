@@ -18,7 +18,7 @@ The score is held back by **deployment-readiness gaps**, not architectural probl
 
 1. **Two `<meta name="description">` tags ship in the live `<head>`** — the static one from `index.html` and the per-page one Helmet inserts. Crawlers (and browsers) typically use the first, which means every route currently surfaces the default description.
 2. **Missing `robots.txt` and `sitemap.xml`** — the SPA fallback returns `index.html` for both, so neither file is actually served. Crawl efficiency suffers.
-3. **`og:image` references `https://gianguyenkhanhhoa.vn/og-default.jpg` but no such file exists in `public/`** — social shares will render with no image.
+3. **`og:image` references `https://thienlongninhthuan.com/og-default.jpg` but no such file exists in `public/`** — social shares will render with no image.
 4. **The site is a static SPA with no prerendering.** Initial HTML (pre-JS) is the same shell for every URL, with the default title/description. Googlebot executes JS so this is workable, but Bing/social crawlers / non-JS bots see only the shell.
 
 Each of these is small in effort and contains the entire deduction.
@@ -65,7 +65,7 @@ Each of these is small in effort and contains the entire deduction.
 - **Evidence:** `curl /robots.txt` returns HTTP 200 with the body of `index.html` (the SPA fallback). No actual `robots.txt` file exists in `public/` (in fact, `public/` does not exist). The vite preview's static-asset handler can't find one and falls through to the SPA route.
 - **Why it matters:** Without a real `robots.txt`, search engines can't read crawl directives or find the sitemap reference. Some bots interpret an HTML response at `/robots.txt` as a misconfiguration and may de-prioritize the site.
 - **Score impact:** −10 (Crawlability & Indexation).
-- **Recommendation:** Add `public/robots.txt` containing at minimum `User-agent: *`, `Allow: /`, and `Sitemap: https://gianguyenkhanhhoa.vn/sitemap.xml`.
+- **Recommendation:** Add `public/robots.txt` containing at minimum `User-agent: *`, `Allow: /`, and `Sitemap: https://thienlongninhthuan.com/sitemap.xml`.
 
 ### F3 — `sitemap.xml` is missing (served as the SPA shell)
 - **Category:** Crawlability & Indexation
