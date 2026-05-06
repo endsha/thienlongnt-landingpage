@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import SEO from '@/components/SEO.jsx';
 
 const CONTACT_EMAIL = 'thienlongninhthuan@gmail.com';
-const MAP_EMBED =
-  'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.4072240563646!2d108.9520316754883!3d11.59428898860863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170d063bd932831%3A0x68d7e4cb59423376!2zNiDEkcaw4budbmcgTMOqIE7huqFpLCBC4bqjbyBBbiwgS2jDoW5oIEjDsmEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1777898374585!5m2!1svi!2s';
 
 const INFO = [
   {
@@ -332,8 +330,8 @@ function MapBlock() {
         <div className="relative">
           <div className="aspect-[16/8] overflow-hidden rounded-2xl border border-slate-200 shadow-card">
             <iframe
-              title="Bản đồ văn phòng Thiên Long Ninh Thuận Khánh Hòa"
-              src={MAP_EMBED}
+              title="Bản đồ Thiên Long Ninh Thuận Khánh Hòa"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3908.433236406987!2d108.99131799999999!3d11.592430199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDM1JzMyLjgiTiAxMDjCsDU5JzI4LjciRQ!5e0!3m2!1sen!2s!4v1778051922175!5m2!1sen!2s"
               width="100%"
               height="100%"
               style={{ border: 0 }}
