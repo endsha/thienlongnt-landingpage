@@ -1,28 +1,28 @@
 // import { Link } from 'react-router-dom';
 import SEO from '@/components/SEO.jsx';
 
-const TIMELINE = [
-  {
-    year: '2010',
-    title: 'Thành lập công ty',
-    body: 'Khởi đầu với một văn phòng tư vấn nhỏ tại Khánh Hòa, tập trung vào dịch vụ thí nghiệm vật liệu xây dựng phục vụ các công trình giao thông địa phương.',
-  },
-  {
-    year: '2014',
-    title: 'Mở rộng phòng thí nghiệm',
-    body: 'Đầu tư hệ thống thiết bị thí nghiệm hiện đại, đạt chuẩn LAS-XD và mở rộng phạm vi sang thí nghiệm hiện trường, kiểm định chất lượng công trình.',
-  },
-  {
-    year: '2018',
-    title: 'Khẳng định thương hiệu',
-    body: 'Trở thành đối tác tin cậy của hơn 200 chủ đầu tư, nhà thầu lớn tại khu vực Nam Trung Bộ với hàng trăm dự án dân dụng, công nghiệp và hạ tầng.',
-  },
-  {
-    year: '2024',
-    title: 'Phát triển toàn diện',
-    body: 'Hoàn thiện hệ thống quản lý chất lượng theo ISO/IEC 17025, đội ngũ kỹ sư trên 50 người, đáp ứng các dự án trọng điểm cấp quốc gia.',
-  },
-];
+// const TIMELINE = [
+//   {
+//     year: '2010',
+//     title: 'Thành lập công ty',
+//     body: 'Khởi đầu với một văn phòng tư vấn nhỏ tại Khánh Hòa, tập trung vào dịch vụ thí nghiệm vật liệu xây dựng phục vụ các công trình giao thông địa phương.',
+//   },
+//   {
+//     year: '2014',
+//     title: 'Mở rộng phòng thí nghiệm',
+//     body: 'Đầu tư hệ thống thiết bị thí nghiệm hiện đại, đạt chuẩn LAS-XD và mở rộng phạm vi sang thí nghiệm hiện trường, kiểm định chất lượng công trình.',
+//   },
+//   {
+//     year: '2018',
+//     title: 'Khẳng định thương hiệu',
+//     body: 'Trở thành đối tác tin cậy của hơn 200 chủ đầu tư, nhà thầu lớn tại khu vực Nam Trung Bộ với hàng trăm dự án dân dụng, công nghiệp và hạ tầng.',
+//   },
+//   {
+//     year: '2024',
+//     title: 'Phát triển toàn diện',
+//     body: 'Hoàn thiện hệ thống quản lý chất lượng theo ISO/IEC 17025, đội ngũ kỹ sư trên 50 người, đáp ứng các dự án trọng điểm cấp quốc gia.',
+//   },
+// ];
 
 const VALUES = [
   {
@@ -105,41 +105,41 @@ function Hero() {
   );
 }
 
-function History() {
-  return (
-    <section className="bg-white py-20 md:py-24">
-      <div className="mx-auto max-w-container px-4">
-        <div className="mb-14 max-w-2xl">
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
-            Lịch sử phát triển
-          </p>
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
-            Hành trình kiến tạo niềm tin
-          </h2>
-        </div>
+// function History() {
+//   return (
+//     <section className="bg-white py-20 md:py-24">
+//       <div className="mx-auto max-w-container px-4">
+//         <div className="mb-14 max-w-2xl">
+//           <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
+//             Lịch sử phát triển
+//           </p>
+//           <h2 className="font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
+//             Hành trình kiến tạo niềm tin
+//           </h2>
+//         </div>
 
-        <ol className="relative space-y-10 border-l-2 border-brand-100 pl-8 md:pl-12">
-          {TIMELINE.map((item) => (
-            <li key={item.year} className="relative">
-              <span className="absolute -left-[42px] grid h-8 w-8 place-items-center rounded-full border-4 border-white bg-brand-500 shadow-md md:-left-[54px] md:h-10 md:w-10">
-                <span className="h-2 w-2 rounded-full bg-white" />
-              </span>
-              <div className="mb-2 flex items-baseline gap-4">
-                <span className="font-display text-3xl font-black text-accent-700 md:text-4xl">
-                  {item.year}
-                </span>
-                <h3 className="font-display text-base font-black uppercase tracking-wide text-ink md:text-lg">
-                  {item.title}
-                </h3>
-              </div>
-              <p className="max-w-3xl leading-relaxed text-ink-muted">{item.body}</p>
-            </li>
-          ))}
-        </ol>
-      </div>
-    </section>
-  );
-}
+//         <ol className="relative space-y-10 border-l-2 border-brand-100 pl-8 md:pl-12">
+//           {TIMELINE.map((item) => (
+//             <li key={item.year} className="relative">
+//               <span className="absolute -left-[42px] grid h-8 w-8 place-items-center rounded-full border-4 border-white bg-brand-500 shadow-md md:-left-[54px] md:h-10 md:w-10">
+//                 <span className="h-2 w-2 rounded-full bg-white" />
+//               </span>
+//               <div className="mb-2 flex items-baseline gap-4">
+//                 <span className="font-display text-3xl font-black text-accent-700 md:text-4xl">
+//                   {item.year}
+//                 </span>
+//                 <h3 className="font-display text-base font-black uppercase tracking-wide text-ink md:text-lg">
+//                   {item.title}
+//                 </h3>
+//               </div>
+//               <p className="max-w-3xl leading-relaxed text-ink-muted">{item.body}</p>
+//             </li>
+//           ))}
+//         </ol>
+//       </div>
+//     </section>
+//   );
+// }
 
 function MissionVision() {
   return (
@@ -280,7 +280,7 @@ export default function About() {
         description="Hơn một thập kỷ đồng hành cùng các công trình trọng điểm tại Khánh Hòa. Tìm hiểu lịch sử, sứ mệnh và đội ngũ kỹ sư của Thiên Long Ninh Thuận — đơn vị thí nghiệm LAS-XD."
       />
       <Hero />
-      <History />
+      {/* <History /> */}
       <MissionVision />
       <Values />
       {/* <Leadership /> */}
