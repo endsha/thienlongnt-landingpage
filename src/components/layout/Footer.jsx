@@ -93,7 +93,7 @@ export default function Footer() {
               <span className="font-black tracking-widest">0949536128</span>
             </ContactRow>
             <ContactRow iconPath={ID_PATH} label="Mã số thuế">
-              4500453534
+              4500597737
             </ContactRow>
           </div>
         </div>
