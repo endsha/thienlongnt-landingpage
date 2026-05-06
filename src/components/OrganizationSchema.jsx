@@ -14,7 +14,7 @@ const ORGANIZATION = {
   description:
     'Đơn vị tư vấn, thí nghiệm chuyên ngành xây dựng (LAS-XD), kiểm định chất lượng và thi công công trình tại Khánh Hòa và khu vực Nam Trung Bộ.',
   telephone: '+84-908-700-009',
-  email: 'lienhe@thienlongninhthuan.com',
+  email: 'thienlongninhthuan@gmail.com',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'Đường Thống Nhất, thôn Tân Sơn 2',
@@ -40,7 +40,7 @@ const ORGANIZATION = {
       '@type': 'ContactPoint',
       telephone: '+84-908-700-009',
       contactType: 'customer service',
-      email: 'lienhe@thienlongninhthuan.com',
+      email: 'thienlongninhthuan@gmail.com',
       areaServed: 'VN',
       availableLanguage: ['Vietnamese'],
     },

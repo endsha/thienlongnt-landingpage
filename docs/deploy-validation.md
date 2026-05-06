@@ -82,7 +82,7 @@ Before running `vercel --prod`:
 
 - [ ] Add `public/og-default.jpg` (F1)
 - [ ] Add `public/logo.png` (F2)
-- [ ] Resolve email-address inconsistency (`Header.jsx` uses `thienlongninhthuan@gmail.com`; everywhere else uses `lienhe@thienlongninhthuan.com`) — flagged in Phase 5.10 review
+- [ ] Resolve email-address inconsistency (`Header.jsx` uses `thienlongninhthuan@gmail.com`; everywhere else uses `thienlongninhthuan@gmail.com`) — flagged in Phase 5.10 review
 - [ ] Decide whether to keep the Contact form `console.log` or wrap it in `import.meta.env.DEV` — Phase 5.10 I3
 - [ ] Confirm `Footer.jsx` social/policy `href="#"` are intentional placeholders or wire them up (Phase 5.10 M2)
 
