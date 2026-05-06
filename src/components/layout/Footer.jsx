@@ -1,3 +1,5 @@
+import logo from '@/assets/logo.jpg';
+
 const COMPANY_TAGLINE =
   'Uy tín – Chất lượng – Hiệu quả. Đồng hành cùng sự phát triển bền vững của Quý khách hàng.';
 
@@ -56,15 +58,11 @@ export default function Footer() {
       <div className="relative z-10 mx-auto grid max-w-container grid-cols-1 gap-12 px-4 md:grid-cols-2 lg:grid-cols-3">
         <div className="space-y-6">
           <div className="inline-flex items-center gap-3 rounded-lg bg-white p-3 shadow-xl">
-            <span className="grid h-12 w-12 place-items-center rounded-md bg-brand-800 font-display text-base font-bold text-white">
-              GN
-            </span>
-            <span className="flex flex-col leading-tight">
-              <span className="font-display text-sm font-bold uppercase tracking-tight text-brand-800">
-                Thiên Long Ninh Thuận
-              </span>
-              <span className="text-[11px] font-medium text-ink-muted">Khánh Hòa</span>
-            </span>
+            <img
+              src={logo}
+              alt="Thiên Long Ninh Thuận"
+              className="h-14 w-auto object-contain"
+            />
           </div>
           <p className="max-w-sm text-sm italic leading-relaxed text-slate-400">
             {COMPANY_TAGLINE}
@@ -105,7 +103,16 @@ export default function Footer() {
             Vị trí trên bản đồ
           </h2>
           <div className="h-[220px] overflow-hidden rounded-xl border-2 border-white/5 shadow-2xl">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3908.433236406987!2d108.99131799999999!3d11.592430199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDM1JzMyLjgiTiAxMDjCsDU5JzI4LjciRQ!5e0!3m2!1sen!2s!4v1778051922175!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe
+              title="Bản đồ Thiên Long Ninh Thuận Khánh Hòa"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3908.433236406987!2d108.99131799999999!3d11.592430199999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTHCsDM1JzMyLjgiTiAxMDjCsDU5JzI4LjciRQ!5e0!3m2!1sen!2s!4v1778051922175!5m2!1sen!2s"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </div>

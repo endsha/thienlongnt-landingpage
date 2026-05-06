@@ -1,3 +1,5 @@
+import logo from '@/assets/logo.jpg';
+
 export default function BrandRibbon() {
   return (
     <section
@@ -5,12 +7,11 @@ export default function BrandRibbon() {
       className="border-y border-slate-100 bg-white py-6"
     >
       <div className="mx-auto flex max-w-container items-center gap-5 px-4">
-        <div
-          aria-hidden="true"
-          className="grid h-14 w-14 shrink-0 place-items-center rounded-md bg-brand-800 font-display text-lg font-black text-white shadow-md"
-        >
-          GN
-        </div>
+        <img
+          src={logo}
+          alt="Thiên Long Ninh Thuận"
+          className="h-16 w-auto shrink-0 object-contain"
+        />
         <div className="flex flex-col leading-tight">
           <span className="text-[11px] font-bold uppercase tracking-[0.3em] text-accent-700">
             Công ty TNHH

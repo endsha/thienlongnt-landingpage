@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import { navigation } from '@/data/navigation.js';
 import MobileDrawer from '@/components/layout/MobileDrawer.jsx';
+import logo from '@/assets/logo.jpg';
 
 const linkBase =
   'relative py-2 transition-colors hover:text-accent-700 outline-none focus-visible:text-accent-700';
@@ -129,12 +130,11 @@ export default function Header() {
             className="flex items-center gap-3 shrink-0"
             aria-label="Thiên Long Ninh Thuận Khánh Hòa"
           >
-            <span
-              aria-hidden="true"
-              className="grid h-12 w-12 place-items-center rounded-md bg-brand-800 font-display text-base font-black text-white shadow-md"
-            >
-              GN
-            </span>
+            <img
+              src={logo}
+              alt="Thiên Long Ninh Thuận"
+              className="h-14 w-auto object-contain"
+            />
             <span className="hidden flex-col leading-tight sm:flex">
               <span className="text-[10px] font-bold uppercase tracking-[0.25em] text-accent-700">
                 Công ty TNHH
