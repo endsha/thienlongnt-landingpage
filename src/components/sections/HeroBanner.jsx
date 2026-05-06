@@ -36,7 +36,7 @@ export default function HeroBanner() {
           </h1>
 
           <p className="max-w-2xl text-base leading-relaxed text-slate-300 md:text-lg">
-            Khẳng định giá trị qua từng phép thử, kiến tạo niềm tin bền vững qua mỗi công trình.
+            Chuẩn xác từng thí nghiệm, vững bền mọi công trình.
           </p>
         </div>
       </div>
