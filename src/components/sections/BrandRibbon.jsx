@@ -1,7 +1,7 @@
 export default function BrandRibbon() {
   return (
     <section
-      aria-label="Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận"
+      aria-label="Công ty TNHH Xây dựng Thiên Long Ninh Thuận"
       className="border-y border-slate-100 bg-white py-6"
     >
       <div className="mx-auto flex max-w-container items-center gap-5 px-4">
@@ -16,7 +16,7 @@ export default function BrandRibbon() {
             Công ty TNHH
           </span>
           <span className="font-display text-base font-black uppercase tracking-tight text-brand-800 md:text-lg">
-            Xây dựng và Thương mại
+            Xây dựng
           </span>
           <span className="font-display text-xl font-black uppercase tracking-tight text-brand-800 md:text-2xl">
             Thiên Long Ninh Thuận

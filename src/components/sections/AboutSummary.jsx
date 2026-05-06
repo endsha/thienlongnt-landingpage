@@ -28,7 +28,7 @@ export default function AboutSummary() {
     <div className="space-y-8">
       <div>
         <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
-          Về Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận
+          Về Công ty TNHH Xây dựng Thiên Long Ninh Thuận
         </p>
         <h2 className="mb-6 font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
           Nền móng vững chắc bắt đầu từ từng phép thử

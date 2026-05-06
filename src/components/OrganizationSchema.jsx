@@ -6,7 +6,7 @@ const ORGANIZATION = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
   '@id': `${SITE_URL}/#organization`,
-  name: 'Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận',
+  name: 'Công ty TNHH Xây dựng Thiên Long Ninh Thuận',
   alternateName: 'Thiên Long Ninh Thuận',
   url: SITE_URL,
   logo: `${SITE_URL}/logo.png`,

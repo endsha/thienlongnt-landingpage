@@ -6,7 +6,7 @@ const SITE_NAME = 'Thiên Long Ninh Thuận';
 const SITE_URL = 'https://thienlongninhthuan.com';
 const DEFAULT_TITLE = 'Thiên Long Ninh Thuận — Tư vấn & Thí nghiệm chuyên ngành xây dựng';
 const DEFAULT_DESCRIPTION =
-  'Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận — đơn vị thí nghiệm, kiểm định và thi công xây dựng tại Khánh Hòa. LAS-XD, đạt chuẩn TCVN.';
+  'Công ty TNHH Xây dựng Thiên Long Ninh Thuận — đơn vị thí nghiệm, kiểm định và thi công xây dựng tại Khánh Hòa. LAS-XD, đạt chuẩn TCVN.';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-default.jpg`;
 
 function resolveOgImage(image) {

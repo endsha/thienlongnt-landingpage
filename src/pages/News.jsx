@@ -163,7 +163,7 @@ export default function News() {
     <>
       <SEO
         title="Tin tức — Công ty Thiên Long Ninh Thuận"
-        description="Cập nhật tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng từ Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận."
+        description="Cập nhật tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng từ Công ty TNHH Xây dựng Thiên Long Ninh Thuận."
       />
       <Hero />
 

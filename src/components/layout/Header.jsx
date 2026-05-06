@@ -140,7 +140,7 @@ export default function Header() {
                 Công ty TNHH
               </span>
               <span className="font-display text-[13px] font-black uppercase tracking-tight text-brand-800">
-                Xây dựng và Thương mại
+                Xây dựng
               </span>
               <span className="font-display text-base font-black uppercase tracking-tight text-brand-800">
                 Thiên Long Ninh Thuận
