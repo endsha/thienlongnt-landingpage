@@ -8,7 +8,7 @@ export default function EligibilityCert() {
       title="Chứng nhận đủ điều kiện hoạt động"
       lead="Quyết định và chứng nhận đủ điều kiện hoạt động thí nghiệm chuyên ngành xây dựng (LAS-XD) do cơ quan có thẩm quyền cấp."
       description={[
-        'Phòng thí nghiệm Gia Nguyên được cấp mã LAS-XD và chứng nhận đủ điều kiện thực hiện các phép thử chuyên ngành xây dựng theo Nghị định 62/2016/NĐ-CP và các văn bản hiện hành.',
+        'Phòng thí nghiệm Thiên Long Ninh Thuận được cấp mã LAS-XD và chứng nhận đủ điều kiện thực hiện các phép thử chuyên ngành xây dựng theo Nghị định 62/2016/NĐ-CP và các văn bản hiện hành.',
         'Chứng nhận xác nhận năng lực thiết bị, nhân sự, hệ thống quản lý và phạm vi các phép thử được phép cung cấp dịch vụ ra thị trường.',
       ]}
       highlights={[

@@ -8,7 +8,7 @@ export default function TestingStandards() {
       title="Tiêu chuẩn thí nghiệm"
       lead="Bộ tiêu chuẩn TCVN — TCXDVN áp dụng trong các phép thử cơ — lý — hóa cho vật liệu xây dựng và nền móng."
       description={[
-        'Đây là tập hợp các tiêu chuẩn được phòng thí nghiệm Gia Nguyên áp dụng làm cơ sở phương pháp thử trong từng phép đo — phù hợp với phạm vi LAS-XD đã đăng ký.',
+        'Đây là tập hợp các tiêu chuẩn được phòng thí nghiệm Thiên Long Ninh Thuận áp dụng làm cơ sở phương pháp thử trong từng phép đo — phù hợp với phạm vi LAS-XD đã đăng ký.',
         'Tài liệu công bố nhằm minh bạch phương pháp thử với khách hàng và phục vụ tra cứu nội bộ.',
       ]}
       highlights={[

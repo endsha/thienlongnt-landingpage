@@ -8,7 +8,7 @@ export default function CalibrationCert() {
       title="Hiệu chuẩn — kiểm định thiết bị"
       lead="Hồ sơ hiệu chuẩn định kỳ toàn bộ thiết bị thí nghiệm theo quy định pháp luật về đo lường — bảo đảm độ tin cậy của số liệu thử nghiệm."
       description={[
-        'Toàn bộ thiết bị đo lường, máy thử nghiệm tại phòng thí nghiệm Gia Nguyên được hiệu chuẩn — kiểm định bởi các tổ chức được Bộ Khoa học & Công nghệ chỉ định.',
+        'Toàn bộ thiết bị đo lường, máy thử nghiệm tại phòng thí nghiệm Thiên Long Ninh Thuận được hiệu chuẩn — kiểm định bởi các tổ chức được Bộ Khoa học & Công nghệ chỉ định.',
         'Bộ hồ sơ tổng hợp các giấy chứng nhận hiệu chuẩn còn hiệu lực, là cơ sở để xác nhận độ chính xác của kết quả thí nghiệm bàn giao cho khách hàng.',
       ]}
       highlights={[

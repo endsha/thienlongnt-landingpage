@@ -186,7 +186,7 @@ function CTABanner() {
             Cần tư vấn cho dự án của bạn?
           </h2>
           <p className="mt-3 text-slate-300">
-            Đội ngũ kỹ sư Gia Nguyên sẵn sàng đồng hành — từ khảo sát ban đầu đến nghiệm thu.
+            Đội ngũ kỹ sư Thiên Long Ninh Thuận sẵn sàng đồng hành — từ khảo sát ban đầu đến nghiệm thu.
           </p>
         </div>
         <Link

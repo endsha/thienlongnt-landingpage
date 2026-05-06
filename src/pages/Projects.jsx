@@ -26,7 +26,7 @@ function Hero() {
           Các công trình đã thực hiện
         </h1>
         <p className="mt-8 max-w-3xl border-l-4 border-accent-500 py-2 pl-6 text-lg font-light italic leading-relaxed text-slate-300 md:text-xl">
-          Gia Nguyên tự hào ghi dấu ấn tại hàng loạt dự án trọng điểm — đáp ứng tiêu chuẩn
+          Thiên Long Ninh Thuận tự hào ghi dấu ấn tại hàng loạt dự án trọng điểm — đáp ứng tiêu chuẩn
           kỹ thuật khắt khe và tiến độ thi công thần tốc.
         </p>
       </div>
@@ -103,8 +103,8 @@ export default function Projects() {
   return (
     <>
       <SEO
-        title="Dự án — Công ty Gia Nguyên"
-        description="Danh mục dự án tiêu biểu Gia Nguyên đã thực hiện: cầu & đường, hạ tầng & khu đô thị, công nghiệp tại Khánh Hòa và khu vực Nam Trung Bộ."
+        title="Dự án — Công ty Thiên Long Ninh Thuận"
+        description="Danh mục dự án tiêu biểu Thiên Long Ninh Thuận đã thực hiện: cầu & đường, hạ tầng & khu đô thị, công nghiệp tại Khánh Hòa và khu vực Nam Trung Bộ."
       />
       <Hero />
 

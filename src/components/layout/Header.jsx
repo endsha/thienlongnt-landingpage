@@ -127,7 +127,7 @@ export default function Header() {
           <Link
             to="/"
             className="flex items-center gap-3 shrink-0"
-            aria-label="Gia Nguyên Khánh Hòa"
+            aria-label="Thiên Long Ninh Thuận Khánh Hòa"
           >
             <span
               aria-hidden="true"
@@ -143,7 +143,7 @@ export default function Header() {
                 Xây dựng và Thương mại
               </span>
               <span className="font-display text-base font-black uppercase tracking-tight text-brand-800">
-                Gia Nguyên
+                Thiên Long Ninh Thuận
               </span>
             </span>
           </Link>

@@ -8,7 +8,7 @@ export default function ExcelTools() {
       title="Excel ứng dụng trong xây dựng"
       lead="Bộ công cụ Excel chuyên dụng giúp kỹ sư hiện trường tính toán, lập biểu mẫu và xử lý số liệu thí nghiệm nhanh chóng."
       description={[
-        'Các bảng tính được Gia Nguyên xây dựng và sử dụng nội bộ — chia sẻ ra cộng đồng kỹ thuật như một nguồn tham khảo miễn phí.',
+        'Các bảng tính được Thiên Long Ninh Thuận xây dựng và sử dụng nội bộ — chia sẻ ra cộng đồng kỹ thuật như một nguồn tham khảo miễn phí.',
         'Mỗi tệp đi kèm hướng dẫn sử dụng ngắn ở sheet đầu tiên và đã khóa các ô công thức để tránh chỉnh sửa nhầm.',
       ]}
       highlights={[

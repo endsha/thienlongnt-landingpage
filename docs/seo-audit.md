@@ -2,7 +2,7 @@
 
 **Date:** 2026-05-05
 **Build:** post Phase 5.7 (a11y-clean)
-**Site:** Vietnamese local-business landing site (Gia Nguyên — construction-testing services, Khánh Hòa)
+**Site:** Vietnamese local-business landing site (Thiên Long Ninh Thuận — construction-testing services, Khánh Hòa)
 **Primary goal:** local brand visibility + lead capture
 **Audit method:** automated scan of every defined route via `scripts/seo-scan.mjs` (Playwright), plus manual inspection of static deliverables and the initial HTML response served by the SPA.
 **Scope:** on-page SEO (per design phase 5.8) + crawlability/technical foundations because the SPA architecture has SEO implications. Authority signals scored directionally only — no GSC/Analytics access.
@@ -54,7 +54,7 @@ Each of these is small in effort and contains the entire deduction.
 ### F1 — Duplicate `<meta name="description">` shipped in `<head>`
 - **Category:** On-Page Optimization
 - **Severity:** Critical · **Confidence:** High
-- **Evidence:** On `/du-an/du-an-mau-1`, `document.querySelectorAll('meta[name="description"]')` returns two elements. The first is the static `<meta name="description">` from `index.html` with the global default copy ("Công ty TNHH Xây dựng và Thương mại Gia Nguyên — đơn vị thí nghiệm, kiểm định và thi công xây dựng tại Khánh Hòa…"). The second is the Helmet-injected one with the project-specific summary ("Mô tả ngắn về dự án mẫu số 1…"). Reproduced on every route with a non-default description.
+- **Evidence:** On `/du-an/du-an-mau-1`, `document.querySelectorAll('meta[name="description"]')` returns two elements. The first is the static `<meta name="description">` from `index.html` with the global default copy ("Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận — đơn vị thí nghiệm, kiểm định và thi công xây dựng tại Khánh Hòa…"). The second is the Helmet-injected one with the project-specific summary ("Mô tả ngắn về dự án mẫu số 1…"). Reproduced on every route with a non-default description.
 - **Why it matters:** Crawlers that pick the first meta description (the dominant behavior) see the same default description on all 18 routes. Page-level descriptions are effectively dead. SERP snippets will not differentiate pages.
 - **Score impact:** −15 (On-Page Optimization).
 - **Recommendation:** Remove the static `<meta name="description">` from `index.html` and let Helmet own per-page descriptions. Trade-off: pre-JS crawlers won't see *any* description until JS runs — acceptable for Googlebot; mitigated long-term by F4 (prerendering).
@@ -126,7 +126,7 @@ Each of these is small in effort and contains the entire deduction.
 ### F10 — Missing visible author attribution on news articles
 - **Category:** Content Quality & E-E-A-T
 - **Severity:** Low · **Confidence:** Medium
-- **Evidence:** `NewsDetail.jsx` renders the author when present in JSON, but `news.json` stubs ship without an author. JSON-LD falls back to "Gia Nguyên" (the org), which is fine, but visible UI shows no by-line.
+- **Evidence:** `NewsDetail.jsx` renders the author when present in JSON, but `news.json` stubs ship without an author. JSON-LD falls back to "Thiên Long Ninh Thuận" (the org), which is fine, but visible UI shows no by-line.
 - **Why it matters:** Author attribution is a recognized E-E-A-T signal. Less critical for an org-authored news feed, but worth filling in if real reporters/PMs exist.
 - **Score impact:** −2 (Content Quality, ×0.5 for medium confidence = −1).
 - **Recommendation:** Populate the `author` field in `news.json` with real names where available.

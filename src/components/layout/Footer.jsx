@@ -61,7 +61,7 @@ export default function Footer() {
             </span>
             <span className="flex flex-col leading-tight">
               <span className="font-display text-sm font-bold uppercase tracking-tight text-brand-800">
-                Gia Nguyên
+                Thiên Long Ninh Thuận
               </span>
               <span className="text-[11px] font-medium text-ink-muted">Khánh Hòa</span>
             </span>
@@ -106,7 +106,7 @@ export default function Footer() {
           </h2>
           <div className="h-[220px] overflow-hidden rounded-xl border-2 border-white/5 shadow-2xl">
             <iframe
-              title="Bản đồ Gia Nguyên Khánh Hòa"
+              title="Bản đồ Thiên Long Ninh Thuận Khánh Hòa"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.4072240563646!2d108.9520316754883!3d11.59428898860863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170d063bd932831%3A0x68d7e4cb59423376!2zNiDEkcaw4budbmcgTMOqIE7huqFpLCBC4bqjbyBBbiwgS2jDoW5oIEjDsmEsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1777898374585!5m2!1svi!2s"
               width="100%"
               height="100%"
@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
 
       <div className="mx-auto mt-16 flex max-w-container flex-col items-center justify-between gap-4 border-t border-white/5 px-4 pt-8 text-xs text-slate-400 md:flex-row">
-        <p>© {CURRENT_YEAR} Công ty Gia Nguyên. All rights reserved.</p>
+        <p>© {CURRENT_YEAR} Công ty Thiên Long Ninh Thuận. All rights reserved.</p>
         <div className="flex gap-6">
           <a href="#" className="text-slate-400 transition hover:text-white">
             Chính sách bảo mật

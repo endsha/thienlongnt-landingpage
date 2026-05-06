@@ -5,10 +5,10 @@ export default function CompanyProfile() {
     <LibraryPage
       eyebrow="Thư viện"
       breadcrumb="Hồ sơ năng lực"
-      title="Hồ sơ năng lực Gia Nguyên"
-      lead="Bộ hồ sơ năng lực tổng hợp giới thiệu Công ty TNHH Xây dựng và Thương mại Gia Nguyên — phù hợp dùng kèm hồ sơ thầu, hồ sơ chào giá."
+      title="Hồ sơ năng lực Thiên Long Ninh Thuận"
+      lead="Bộ hồ sơ năng lực tổng hợp giới thiệu Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận — phù hợp dùng kèm hồ sơ thầu, hồ sơ chào giá."
       description={[
-        'Hồ sơ năng lực tập hợp đầy đủ thông tin pháp lý, năng lực tài chính, năng lực kỹ thuật, danh mục dự án tiêu biểu và các chứng nhận đi kèm của Gia Nguyên.',
+        'Hồ sơ năng lực tập hợp đầy đủ thông tin pháp lý, năng lực tài chính, năng lực kỹ thuật, danh mục dự án tiêu biểu và các chứng nhận đi kèm của Thiên Long Ninh Thuận.',
         'Bản trình bày dạng PDF được chuẩn hóa để chủ đầu tư, ban quản lý dự án và đối tác có thể đánh giá nhanh năng lực thực tế của đơn vị.',
       ]}
       highlights={[
@@ -18,7 +18,7 @@ export default function CompanyProfile() {
       ]}
       documents={[
         {
-          title: 'Hồ sơ năng lực Gia Nguyên — bản đầy đủ',
+          title: 'Hồ sơ năng lực Thiên Long Ninh Thuận — bản đầy đủ',
           meta: 'PDF · 48 trang · Cập nhật 2024',
           url: '/library/ho-so-nang-luc-day-du.pdf',
         },

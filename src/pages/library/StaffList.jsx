@@ -8,7 +8,7 @@ export default function StaffList() {
       title="Danh sách cán bộ chủ chốt"
       lead="Đội ngũ kỹ sư — thí nghiệm viên có chứng chỉ hành nghề, được đào tạo bài bản và có kinh nghiệm thực tế trên các dự án trọng điểm."
       description={[
-        'Đội ngũ Gia Nguyên gồm các kỹ sư xây dựng, kỹ sư vật liệu, thí nghiệm viên cấp III/IV và kỹ thuật viên hiện trường — tất cả đều có chứng chỉ hành nghề phù hợp.',
+        'Đội ngũ Thiên Long Ninh Thuận gồm các kỹ sư xây dựng, kỹ sư vật liệu, thí nghiệm viên cấp III/IV và kỹ thuật viên hiện trường — tất cả đều có chứng chỉ hành nghề phù hợp.',
         'Danh sách công bố nhằm minh bạch năng lực nhân sự với chủ đầu tư và phục vụ công tác đấu thầu, công bố thông tin theo quy định.',
       ]}
       highlights={[

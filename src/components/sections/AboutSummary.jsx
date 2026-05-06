@@ -28,7 +28,7 @@ export default function AboutSummary() {
     <div className="space-y-8">
       <div>
         <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
-          Về Công ty TNHH Xây dựng và Thương mại Gia Nguyên
+          Về Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận
         </p>
         <h2 className="mb-6 font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
           Nền tảng vững chắc cho mọi công trình
@@ -36,7 +36,7 @@ export default function AboutSummary() {
 
         <div className="space-y-5 text-justify leading-relaxed text-ink-muted">
           <p>
-            <strong>Gia Nguyên</strong> là đơn vị tư vấn và thí nghiệm chuyên ngành xây dựng,
+            <strong>Thiên Long Ninh Thuận</strong> là đơn vị tư vấn và thí nghiệm chuyên ngành xây dựng,
             vận hành phòng thí nghiệm đáp ứng các tiêu chuẩn khắt khe phục vụ kiểm soát
             chất lượng công trình.
           </p>

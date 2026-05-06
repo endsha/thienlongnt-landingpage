@@ -6,7 +6,7 @@ export default function CapacityDeclaration() {
       eyebrow="Công bố năng lực"
       breadcrumb="Công bố năng lực"
       title="Công bố năng lực hoạt động xây dựng"
-      lead="Hồ sơ công bố thông tin năng lực thí nghiệm — tư vấn — thi công của Gia Nguyên trên hệ thống công khai của cơ quan quản lý xây dựng."
+      lead="Hồ sơ công bố thông tin năng lực thí nghiệm — tư vấn — thi công của Thiên Long Ninh Thuận trên hệ thống công khai của cơ quan quản lý xây dựng."
       description={[
         'Theo quy định, các tổ chức hoạt động trong lĩnh vực xây dựng phải công bố công khai năng lực hành nghề trên cổng thông tin của Bộ Xây dựng và Sở Xây dựng địa phương.',
         'Bộ hồ sơ tổng hợp đầy đủ thông tin năng lực, phạm vi hoạt động và các chứng nhận đi kèm để chủ đầu tư và đối tác kiểm tra, đối chiếu.',

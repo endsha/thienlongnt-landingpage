@@ -88,7 +88,7 @@ function Hero() {
           Bắt đầu cuộc trò chuyện
         </h1>
         <p className="mt-8 max-w-3xl border-l-4 border-accent-500 py-2 pl-6 text-lg font-light italic leading-relaxed text-slate-300 md:text-xl">
-          Gửi yêu cầu để đội ngũ kỹ sư Gia Nguyên tư vấn giải pháp thí nghiệm, kiểm định
+          Gửi yêu cầu để đội ngũ kỹ sư Thiên Long Ninh Thuận tư vấn giải pháp thí nghiệm, kiểm định
           phù hợp cho công trình của bạn.
         </p>
       </div>
@@ -229,7 +229,7 @@ function ContactForm({ onSuccess }) {
 
       <div className="flex flex-col gap-4 pt-2 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-xs text-ink-muted">
-          Bằng việc gửi biểu mẫu, bạn đồng ý cho Gia Nguyên liên hệ lại qua email/điện thoại.
+          Bằng việc gửi biểu mẫu, bạn đồng ý cho Thiên Long Ninh Thuận liên hệ lại qua email/điện thoại.
         </p>
         <button
           type="submit"
@@ -262,7 +262,7 @@ function ContactBody() {
             Văn phòng tại Khánh Hòa
           </h2>
           <p className="mb-10 max-w-md leading-relaxed text-ink-muted">
-            Đội ngũ tư vấn của Gia Nguyên sẵn sàng hỗ trợ trong giờ hành chính —
+            Đội ngũ tư vấn của Thiên Long Ninh Thuận sẵn sàng hỗ trợ trong giờ hành chính —
             cam kết phản hồi trong vòng 24 giờ làm việc.
           </p>
 
@@ -308,7 +308,7 @@ function ContactBody() {
 
       {toast && (
         <Toast
-          message="Đã gửi yêu cầu thành công. Gia Nguyên sẽ liên hệ lại trong 24h."
+          message="Đã gửi yêu cầu thành công. Thiên Long Ninh Thuận sẽ liên hệ lại trong 24h."
           onClose={() => setToast(false)}
         />
       )}
@@ -332,7 +332,7 @@ function MapBlock() {
         <div className="relative">
           <div className="aspect-[16/8] overflow-hidden rounded-2xl border border-slate-200 shadow-card">
             <iframe
-              title="Bản đồ văn phòng Gia Nguyên Khánh Hòa"
+              title="Bản đồ văn phòng Thiên Long Ninh Thuận Khánh Hòa"
               src={MAP_EMBED}
               width="100%"
               height="100%"
@@ -356,8 +356,8 @@ export default function Contact() {
   return (
     <>
       <SEO
-        title="Liên hệ Gia Nguyên — Văn phòng Khánh Hòa"
-        description="Liên hệ tư vấn dịch vụ thí nghiệm, kiểm định, thi công của Gia Nguyên tại Khánh Hòa. Phản hồi yêu cầu trong 24h. Hotline 0908.700009."
+        title="Liên hệ Thiên Long Ninh Thuận — Văn phòng Khánh Hòa"
+        description="Liên hệ tư vấn dịch vụ thí nghiệm, kiểm định, thi công của Thiên Long Ninh Thuận tại Khánh Hòa. Phản hồi yêu cầu trong 24h. Hotline 0908.700009."
       />
       <Hero />
       <ContactBody />

@@ -6,7 +6,7 @@ export default function EquipmentList() {
       eyebrow="Công bố năng lực"
       breadcrumb="Danh mục thiết bị"
       title="Danh mục thiết bị thí nghiệm"
-      lead="Hệ thống thiết bị thí nghiệm — kiểm định hiện đại của Gia Nguyên, phục vụ đầy đủ phạm vi các phép thử cơ — lý — hóa trong xây dựng."
+      lead="Hệ thống thiết bị thí nghiệm — kiểm định hiện đại của Thiên Long Ninh Thuận, phục vụ đầy đủ phạm vi các phép thử cơ — lý — hóa trong xây dựng."
       description={[
         'Phòng thí nghiệm được trang bị đồng bộ các thiết bị nén bê tông, kéo thép, đầm chặt, xuyên động, siêu âm cốt thép, lấy mẫu khoan… từ các nhà sản xuất uy tín.',
         'Danh mục được cập nhật theo từng đợt đầu tư mới, kèm thông tin xuất xứ, model và tình trạng hiệu chuẩn.',

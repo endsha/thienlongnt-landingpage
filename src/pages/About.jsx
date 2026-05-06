@@ -94,7 +94,7 @@ function Hero() {
           Giới thiệu
         </p>
         <h1 className="font-display text-4xl font-black uppercase leading-none tracking-tight text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.3)] md:text-6xl lg:text-7xl">
-          Về Gia Nguyên
+          Về Thiên Long Ninh Thuận
         </h1>
         <p className="mt-8 max-w-3xl border-l-4 border-accent-500 py-2 pl-6 text-lg font-light italic leading-relaxed text-slate-300 md:text-xl">
           Hơn một thập kỷ đồng hành cùng các công trình trọng điểm — chúng tôi đặt
@@ -225,7 +225,7 @@ function Leadership() {
           </h2>
           <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
             Những người trực tiếp định hình chiến lược kỹ thuật và bảo đảm chất lượng
-            dịch vụ của Gia Nguyên qua từng dự án.
+            dịch vụ của Thiên Long Ninh Thuận qua từng dự án.
           </p>
         </div>
 
@@ -276,8 +276,8 @@ export default function About() {
   return (
     <>
       <SEO
-        title="Về Gia Nguyên — Hành trình & Năng lực"
-        description="Hơn một thập kỷ đồng hành cùng các công trình trọng điểm tại Khánh Hòa. Tìm hiểu lịch sử, sứ mệnh và đội ngũ kỹ sư của Gia Nguyên — đơn vị thí nghiệm LAS-XD."
+        title="Về Thiên Long Ninh Thuận — Hành trình & Năng lực"
+        description="Hơn một thập kỷ đồng hành cùng các công trình trọng điểm tại Khánh Hòa. Tìm hiểu lịch sử, sứ mệnh và đội ngũ kỹ sư của Thiên Long Ninh Thuận — đơn vị thí nghiệm LAS-XD."
       />
       <Hero />
       <History />

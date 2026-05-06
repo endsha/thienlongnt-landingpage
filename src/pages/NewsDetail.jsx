@@ -126,10 +126,10 @@ export default function NewsDetail() {
       headline: article.title,
       description: article.excerpt,
       datePublished: article.publishedAt,
-      author: { '@type': 'Organization', name: article.author || 'Gia Nguyên' },
+      author: { '@type': 'Organization', name: article.author || 'Thiên Long Ninh Thuận' },
       publisher: {
         '@type': 'Organization',
-        name: 'Gia Nguyên',
+        name: 'Thiên Long Ninh Thuận',
         logo: { '@type': 'ImageObject', url: 'https://thienlongninhthuan.com/images/logo.jpg' },
       },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
@@ -142,7 +142,7 @@ export default function NewsDetail() {
   if (!article) {
     return (
       <>
-        <SEO title="Không tìm thấy bài viết — Gia Nguyên" description="Trang tin tức không tồn tại." />
+        <SEO title="Không tìm thấy bài viết — Thiên Long Ninh Thuận" description="Trang tin tức không tồn tại." />
         <NotFoundBody />
       </>
     );
@@ -151,7 +151,7 @@ export default function NewsDetail() {
   return (
     <>
       <SEO
-        title={`${article.title} — Tin tức Gia Nguyên`}
+        title={`${article.title} — Tin tức Thiên Long Ninh Thuận`}
         description={article.excerpt}
         type="article"
         image={article.thumbnail || undefined}

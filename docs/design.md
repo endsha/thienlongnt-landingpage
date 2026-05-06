@@ -11,7 +11,7 @@
 
 - **What:** A pixel-perfect clone of `thienlongninhthuan.com` (Vietnamese construction-testing company landing site) built with Vite + React + TailwindCSS.
 - **Why:** User has authorization to clone the site (own / authorized).
-- **Who for:** Same audience as the source site (Vietnamese clients of Gia Nguyên construction-testing services).
+- **Who for:** Same audience as the source site (Vietnamese clients of Thiên Long Ninh Thuận construction-testing services).
 - **Scope:** Full multi-page clone — 17 top-level routes from the nav (home, about, services, projects list, news list, contact, 10× library sub-pages: 6 under "Công bố năng lực" + 4 under "Thư viện") **plus** dynamic detail pages for projects (`/du-an/:slug`) and news (`/tin-tuc/:slug`), plus a `*` 404 fallback.
 - **Content:** Static JSON files in `/src/data/` for projects and news. Assets (images, fonts, icons, PDFs) scraped from source and bundled locally.
 - **Styling:** Themed Tailwind config (extracted color/typography tokens) + CSS modules for complex effects (gradients, animations).
@@ -173,7 +173,7 @@ Path: `src/styles/modules/<Component>.module.css`.
   "slug": "tieu-de-bai-viet",
   "title": "Tiêu đề",
   "publishedAt": "2025-03-15",
-  "author": "Gia Nguyên",
+  "author": "Thiên Long Ninh Thuận",
   "thumbnail": "/assets/news/slug.jpg",
   "excerpt": "Tóm tắt",
   "body": "Nội dung HTML"

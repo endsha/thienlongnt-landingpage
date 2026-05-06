@@ -33,7 +33,7 @@ function Hero() {
           Tin tức hoạt động
         </h1>
         <p className="mt-8 max-w-3xl border-l-4 border-accent-500 py-2 pl-6 text-lg font-light italic leading-relaxed text-slate-300 md:text-xl">
-          Tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng của Công ty Gia Nguyên.
+          Tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng của Công ty Thiên Long Ninh Thuận.
         </p>
       </div>
     </section>
@@ -127,7 +127,7 @@ function EmptyState() {
     <div className="col-span-full rounded-xl border border-dashed border-slate-300 bg-white py-20 text-center">
       <p className="font-display text-xl font-black uppercase text-brand-800">Chưa có bài viết</p>
       <p className="mt-2 text-sm text-ink-muted">
-        Tin tức và hoạt động của Gia Nguyên sẽ sớm được cập nhật tại đây.
+        Tin tức và hoạt động của Thiên Long Ninh Thuận sẽ sớm được cập nhật tại đây.
       </p>
     </div>
   );
@@ -162,8 +162,8 @@ export default function News() {
   return (
     <>
       <SEO
-        title="Tin tức — Công ty Gia Nguyên"
-        description="Cập nhật tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng từ Công ty TNHH Xây dựng và Thương mại Gia Nguyên."
+        title="Tin tức — Công ty Thiên Long Ninh Thuận"
+        description="Cập nhật tiến độ dự án, hoạt động nội bộ và thông báo tuyển dụng từ Công ty TNHH Xây dựng và Thương mại Thiên Long Ninh Thuận."
       />
       <Hero />
 

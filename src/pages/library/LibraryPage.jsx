@@ -158,7 +158,7 @@ export default function LibraryPage({ eyebrow, title, lead, breadcrumb, descript
               <Link to="/lien-he" className="font-bold text-brand-700 underline-offset-2 hover:underline">
                 liên hệ trực tiếp
               </Link>{' '}
-              văn phòng Gia Nguyên.
+              văn phòng Thiên Long Ninh Thuận.
             </p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function LibraryPage({ eyebrow, title, lead, breadcrumb, descript
         <div className="mx-auto flex max-w-container flex-col items-start gap-5 px-4 md:flex-row md:items-center md:justify-between">
           <div className="max-w-2xl">
             <h2 className="font-display text-xl font-black uppercase leading-tight text-white md:text-2xl">
-              Cần thêm thông tin về năng lực Gia Nguyên?
+              Cần thêm thông tin về năng lực Thiên Long Ninh Thuận?
             </h2>
             <p className="mt-2 text-slate-300">
               Đội ngũ tư vấn sẵn sàng cung cấp hồ sơ chi tiết theo yêu cầu của dự án.

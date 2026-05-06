@@ -134,7 +134,7 @@ export default function ProjectDetail() {
       ...(project.year ? { dateCreated: String(project.year) } : {}),
       ...(project.category ? { genre: project.category } : {}),
       ...(project.client ? { sponsor: { '@type': 'Organization', name: project.client } } : {}),
-      creator: { '@type': 'Organization', name: 'Gia Nguyên' },
+      creator: { '@type': 'Organization', name: 'Thiên Long Ninh Thuận' },
     };
     return [work, breadcrumb];
   }, [project]);
@@ -142,7 +142,7 @@ export default function ProjectDetail() {
   if (!project) {
     return (
       <>
-        <SEO title="Không tìm thấy dự án — Gia Nguyên" description="Trang dự án không tồn tại." />
+        <SEO title="Không tìm thấy dự án — Thiên Long Ninh Thuận" description="Trang dự án không tồn tại." />
         <NotFoundBody />
       </>
     );
@@ -151,7 +151,7 @@ export default function ProjectDetail() {
   return (
     <>
       <SEO
-        title={`${project.title} — Dự án Gia Nguyên`}
+        title={`${project.title} — Dự án Thiên Long Ninh Thuận`}
         description={project.summary}
         type="article"
         image={project.thumbnail || undefined}
