@@ -19,14 +19,14 @@ export default function CapacityDeclaration() {
       documents={[
         {
           title: 'Bản công bố năng lực hoạt động xây dựng',
-          meta: 'PDF · 8 trang · Cập nhật 2024',
-          url: '/library/cong-bo-nang-luc.pdf',
+          meta: 'PDF · Cập nhật 2026',
+          url: 'https://drive.google.com/file/d/1vLqHgbvOh2c9hQ3Fsrhu3jSmccDnRMOM/view?usp=sharing',
         },
-        {
-          title: 'Quyết định công nhận năng lực — Sở Xây dựng',
-          meta: 'PDF · 4 trang',
-          url: '/library/quyet-dinh-cong-nhan.pdf',
-        },
+        // {
+        //   title: 'Quyết định công nhận năng lực — Sở Xây dựng',
+        //   meta: 'PDF · 4 trang',
+        //   url: '/library/quyet-dinh-cong-nhan.pdf',
+        // },
       ]}
     />
   );

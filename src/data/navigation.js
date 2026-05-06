@@ -8,6 +8,7 @@ export const navigation = [
       {
         label: 'Bản công bố thông tin năng lực hoạt động thí nghiệm',
         path: '/thu-vien/cong-bo-nang-luc',
+        //https://drive.google.com/file/d/1vLqHgbvOh2c9hQ3Fsrhu3jSmccDnRMOM/view?usp=sharing
       },
       // {
       //   label: 'Giấy chứng nhận đủ điều kiện hoạt động thí nghiệm',
