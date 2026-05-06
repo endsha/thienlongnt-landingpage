@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import SEO from '@/components/SEO.jsx';
 
 const TIMELINE = [
@@ -47,23 +47,23 @@ const VALUES = [
   },
 ];
 
-const LEADERSHIP = [
-  {
-    name: 'KS. Nguyễn Văn Gia',
-    role: 'Giám đốc điều hành',
-    bio: 'Hơn 20 năm kinh nghiệm trong lĩnh vực thí nghiệm và kiểm định chất lượng công trình xây dựng.',
-  },
-  {
-    name: 'ThS. Trần Thị Hồng',
-    role: 'Trưởng phòng Kỹ thuật',
-    bio: 'Chuyên gia về thí nghiệm bê tông, đất, cát đá; phụ trách hệ thống quản lý chất lượng theo ISO/IEC 17025.',
-  },
-  {
-    name: 'KS. Lê Quốc Bảo',
-    role: 'Trưởng phòng Thí nghiệm hiện trường',
-    bio: 'Trực tiếp quản lý đội ngũ kỹ sư hiện trường, đảm bảo chất lượng kiểm định trên toàn bộ dự án.',
-  },
-];
+// const LEADERSHIP = [
+//   {
+//     name: 'KS. Nguyễn Văn Gia',
+//     role: 'Giám đốc điều hành',
+//     bio: 'Hơn 20 năm kinh nghiệm trong lĩnh vực thí nghiệm và kiểm định chất lượng công trình xây dựng.',
+//   },
+//   {
+//     name: 'ThS. Trần Thị Hồng',
+//     role: 'Trưởng phòng Kỹ thuật',
+//     bio: 'Chuyên gia về thí nghiệm bê tông, đất, cát đá; phụ trách hệ thống quản lý chất lượng theo ISO/IEC 17025.',
+//   },
+//   {
+//     name: 'KS. Lê Quốc Bảo',
+//     role: 'Trưởng phòng Thí nghiệm hiện trường',
+//     bio: 'Trực tiếp quản lý đội ngũ kỹ sư hiện trường, đảm bảo chất lượng kiểm định trên toàn bộ dự án.',
+//   },
+// ];
 
 function ValueIcon({ d }) {
   return (
@@ -73,13 +73,13 @@ function ValueIcon({ d }) {
   );
 }
 
-function ArrowIcon() {
-  return (
-    <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
-      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-5-5 5 5-5 5" />
-    </svg>
-  );
-}
+// function ArrowIcon() {
+//   return (
+//     <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
+//       <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14m-5-5 5 5-5 5" />
+//     </svg>
+//   );
+// }
 
 function Hero() {
   return (
@@ -212,65 +212,65 @@ function Values() {
   );
 }
 
-function Leadership() {
-  return (
-    <section className="bg-surface-subtle py-20 md:py-24">
-      <div className="mx-auto max-w-container px-4">
-        <div className="mb-14 max-w-2xl">
-          <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
-            Ban lãnh đạo
-          </p>
-          <h2 className="font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
-            Đội ngũ dẫn dắt
-          </h2>
-          <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
-            Những người trực tiếp định hình chiến lược kỹ thuật và bảo đảm chất lượng
-            dịch vụ của Thiên Long Ninh Thuận qua từng dự án.
-          </p>
-        </div>
+// function Leadership() {
+//   return (
+//     <section className="bg-surface-subtle py-20 md:py-24">
+//       <div className="mx-auto max-w-container px-4">
+//         <div className="mb-14 max-w-2xl">
+//           <p className="mb-3 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">
+//             Ban lãnh đạo
+//           </p>
+//           <h2 className="font-display text-3xl font-black uppercase leading-tight text-ink md:text-4xl">
+//             Đội ngũ dẫn dắt
+//           </h2>
+//           <p className="mt-4 max-w-2xl leading-relaxed text-ink-muted">
+//             Những người trực tiếp định hình chiến lược kỹ thuật và bảo đảm chất lượng
+//             dịch vụ của Thiên Long Ninh Thuận qua từng dự án.
+//           </p>
+//         </div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          {LEADERSHIP.map((person) => (
-            <article
-              key={person.name}
-              className="overflow-hidden rounded-xl bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
-            >
-              <div className="relative h-48 bg-gradient-to-br from-brand-700 to-brand-900">
-                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)]" />
-                <div className="absolute bottom-4 left-6">
-                  <span className="inline-block rounded-sm bg-accent-700 px-2.5 py-1 text-[10px] font-black uppercase tracking-[0.3em] text-white">
-                    {person.role}
-                  </span>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="mb-2 font-display text-lg font-black uppercase text-ink">
-                  {person.name}
-                </h3>
-                <p className="text-sm leading-relaxed text-ink-muted">{person.bio}</p>
-              </div>
-            </article>
-          ))}
-        </div>
+//         <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+//           {LEADERSHIP.map((person) => (
+//             <article
+//               key={person.name}
+//               className="overflow-hidden rounded-xl bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-card-hover"
+//             >
+//               <div className="relative h-48 bg-gradient-to-br from-brand-700 to-brand-900">
+//                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.1),transparent_60%)]" />
+//                 <div className="absolute bottom-4 left-6">
+//                   <span className="inline-block rounded-sm bg-accent-700 px-2.5 py-1 text-[10px] font-black uppercase tracking-[0.3em] text-white">
+//                     {person.role}
+//                   </span>
+//                 </div>
+//               </div>
+//               <div className="p-6">
+//                 <h3 className="mb-2 font-display text-lg font-black uppercase text-ink">
+//                   {person.name}
+//                 </h3>
+//                 <p className="text-sm leading-relaxed text-ink-muted">{person.bio}</p>
+//               </div>
+//             </article>
+//           ))}
+//         </div>
 
-        <div className="mt-14 flex flex-wrap items-center gap-4">
-          <Link
-            to="/thu-vien/danh-sach-can-bo"
-            className="inline-flex items-center gap-3 rounded-lg bg-brand-700 px-8 py-3.5 text-sm font-bold uppercase text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-brand-800 hover:shadow-xl md:text-base"
-          >
-            Xem danh sách cán bộ <ArrowIcon />
-          </Link>
-          <Link
-            to="/lien-he"
-            className="inline-flex items-center gap-3 rounded-lg border-2 border-brand-500 px-8 py-3 text-sm font-bold uppercase text-brand-700 transition-all duration-300 hover:-translate-y-1 hover:bg-brand-700 hover:text-white md:text-base"
-          >
-            Liên hệ hợp tác
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
-}
+//         <div className="mt-14 flex flex-wrap items-center gap-4">
+//           <Link
+//             to="/thu-vien/danh-sach-can-bo"
+//             className="inline-flex items-center gap-3 rounded-lg bg-brand-700 px-8 py-3.5 text-sm font-bold uppercase text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-brand-800 hover:shadow-xl md:text-base"
+//           >
+//             Xem danh sách cán bộ <ArrowIcon />
+//           </Link>
+//           <Link
+//             to="/lien-he"
+//             className="inline-flex items-center gap-3 rounded-lg border-2 border-brand-500 px-8 py-3 text-sm font-bold uppercase text-brand-700 transition-all duration-300 hover:-translate-y-1 hover:bg-brand-700 hover:text-white md:text-base"
+//           >
+//             Liên hệ hợp tác
+//           </Link>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 export default function About() {
   return (
@@ -283,7 +283,7 @@ export default function About() {
       <History />
       <MissionVision />
       <Values />
-      <Leadership />
+      {/* <Leadership /> */}
     </>
   );
 }
